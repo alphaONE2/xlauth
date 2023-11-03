@@ -1,0 +1,22 @@
+[package]
+name = "xlauth"
+description = "A small utility to send TOTP authenticator codes to XIV Launcher"
+authors = ["iryoku"]
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "xlauth"
+path = "src/xlauth/main.rs"
+
+[[bin]]
+name = "xlauth-cli"
+path = "src/xlauth-cli/main.rs"
+
+[dependencies]
+clap = { version = "4.4.7", features = ["derive", "cargo", "env", "unicode", "wrap_help"] }
+expand_str = "0.1.1"
+humantime = "2.1.0"
+keyring = "2.0.5"
+totp-rs = { version = "5.4.0", features = ["otpauth", "zeroize"] }
+zeroize = "1.6.0"

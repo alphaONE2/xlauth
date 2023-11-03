@@ -37,7 +37,6 @@ fn save(name: &str, secret: &mut Vec<String>) {
 }
 
 fn validate_secret(secret: &mut Vec<String>) -> Secret {
-    println!("{:?}", secret);
     let length = secret.iter().fold(0, |l, s| l + s.len());
     let mut joined = String::new();
     joined.reserve(length);

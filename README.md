@@ -8,12 +8,23 @@
 A small utility to send TOTP authenticator codes to [XIV Launcher][xiv-launcher].
 
 ## Usage
-```
-> xlauth-cli save AD2J0N3FDDJPWEH0ADJP6WK5EGG4PTBT
-> xlauth-cli launch
+
+To save your TOTP secret to the system's default keyring or credential store.
+```bash
+xlauth save AD2J0N3FDDJPWEH0ADJP6WK5EGG4PTBT
 ```
 
-`xlauth` is a thin wrapper around `xlauth-cli` intended for use in shortcuts that accepts all of the same command line arguments, but prevents the console window from opening.
+To send a TOTP code to XIV Launcher.
+```bash
+xlauth send
+```
+
+To start XIV Launcher and automatically send a TOTP code.
+```bash
+xlauth launch
+```
+
+**Note:** On Windows use `xlauth-cli` instead of `xlauth` to use the tool from the command line.
 
 ## License
 

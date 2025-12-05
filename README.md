@@ -38,12 +38,12 @@ This project is licensed under the [MIT license][license].
 
 [license]: ./LICENSE
 
-[build-status-url]: https://github.com/alphaONE2/xlauth/actions/workflows/rust.yml
+[build-status-url]: https://github.com/alphaONE2/xlauth/actions/workflows/build.yml
 [contributors-url]: https://github.com/alphaONE2/xlauth/graphs/contributors
 [stars-url]: https://github.com/alphaONE2/xlauth/stargazers
 [forks-url]: https://github.com/alphaONE2/xlauth/network/members
 
-[build-status-badge]: https://github.com/alphaONE2/xlauth/actions/workflows/rust.yml/badge.svg?branch=main
+[build-status-badge]: https://github.com/alphaONE2/xlauth/actions/workflows/rust.yml/build.svg?branch=main
 [contributors-badge]: https://img.shields.io/github/contributors/alphaONE2/xlauth
 [stars-badge]: https://img.shields.io/github/stars/alphaONE2/xlauth
 [forks-badge]: https://img.shields.io/github/forks/alphaONE2/xlauth
